@@ -1,0 +1,7 @@
+{
+  "plugins": ["jsdoc"],
+  "extends": ["plugin:jsdoc/recommended"],
+  "rules": {
+    "jsdoc/require-jsdoc": ["warn", {"publicOnly":  true}]
+  }
+}
